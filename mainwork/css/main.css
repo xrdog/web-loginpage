@@ -1,0 +1,111 @@
+.forheight{
+    margin: 0;
+    border: 0;
+    height:100%;
+}
+
+.main{
+    /* background-image: url(../imgg/4.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat; */
+    background-color: rgb(207, 206, 204);
+    /* text-align: center; */
+    height: 100%;
+}
+
+.main_flex{
+    justify-content: space-between;
+    display: flex;
+}
+
+.main_top{
+    text-align: center;
+    width: 100%;
+}   
+
+.backimg1{
+    margin: 0;
+    flex-shrink:1;
+}
+
+.backimg2{ 
+    height: 100%;
+    flex-shrink:1;
+}
+
+.mainwork{
+    align-self: center;
+    height: 500px;
+    padding: 16px;
+    width: 400px;
+    flex-shrink:0;
+    background-color: rgb(172, 166, 156);   
+}
+
+.img{
+    opacity: 40%;
+    width:400px;
+    border: 0;
+}
+
+.img:hover{
+    opacity: 100%;
+}
+
+.img3{
+    margin: auto;
+    width:350px;    
+}
+
+.sheet{
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+.nomargin{
+    margin: 0;
+    padding: 0;
+}
+
+.mid{
+    width: 200px;
+    margin: auto;
+}
+
+.chooselogway_a{
+    color:black;
+    font-size: 25px;
+    text-decoration: none;
+    border-bottom: 2px black solid;
+}
+
+.chooselogway_a:hover{
+    border-bottom: 2px skyblue solid;
+    color: skyblue;
+}
+
+.txt_border{
+    margin-top: 20px;
+    border: rgba(0, 0, 0, 0.486) 1px solid;
+}
+
+.input{
+    text-align: left;
+    padding: 0;
+    height: 58px;
+    width: 320px;
+    border:none;
+    background-color: rgb(172, 166, 156); 
+    outline: none   ;
+}
+
+
+.align_left{
+    text-align: start;
+}
+
+.img56{
+    vertical-align: middle;
+    width: 40px;
+}
