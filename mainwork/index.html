@@ -4,8 +4,9 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/main.js"></script>
         <title>xrdog</title>
-        
+        <script></script>
     </head>
 
     <body class="forheight">
@@ -35,12 +36,16 @@
 
                         <form id="form-box">
                             <div class="txt_border nomargin">
-                                <img class="align_left img56" src="imgg/5.png"><input class="input" type="text" name="username" value="请输入学号/身份证">
+                                <img class="align_left img56" src="imgg/5.png"><input id="user-name" class="input" type="text" name="username" value="">
                             </div>
     
                             <div class="txt_border no">
-                               <img class="align_left img56" src="imgg/6.png"><input class="input" type="password" name="userpassword" value="请输入密码">
+                               <img class="align_left img56" src="imgg/6.png"><input id="user-passwd" class="input" type="password" name="userpassword" value="">
                             </div>
+
+                            <button id="login" class="but1" onclick="click_but1()">
+                                登录
+                            </button>
                         </form>
 
                     </div>
