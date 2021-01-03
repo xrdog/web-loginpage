@@ -1,74 +1,44 @@
-<!DOCTYPE html>
+
+
 <html class="forheight"> 
 
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="./public/css/main.css" charset="utf-8">
+        <script src="public/js/main.js"></script>
         <title>xrdog</title>
         <script></script>
     </head>
-
-    <body class="forheight">
-        
+    <body>
         <div class="main">
-            
-            <div class="main_top">
-                <img class="img3" src="imgg/3.png">
+            <div class="logo">
+                <img src="/public/imgg/xrdogLogo.png">
+                <span>统一身份认证</span>
             </div>
-
-            <div class="main_flex">
-                
-                <div class="backimg1">
-                    <img class="img" src="imgg/1.jpg">
-                </div>
-
-                <div class="mainwork">
-                    <div class="chooselogway"> 
-
-                        <span id="pwnlogin" style="width:50%">
-                            <a id="pwnlogin_a" class="chooselogway_a" href="#">&nbsp&nbsp&nbsp&nbsp&nbsp账号登录&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
-                        </span>
-                        
-                        <span id="phonelogin" style="width:50%">
-                            <a id="phonelogin_a" class="chooselogway_a" href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp手机登录&nbsp&nbsp&nbsp&nbsp&nbsp</a>
-                        </span>
-
-                        <form id="form-box">
-                            <div class="txt_border nomargin">
-                                <img class="align_left img56" src="imgg/5.png"><input id="user-name" class="input" type="text" name="username" value="">
-                            </div>
-    
-                            <div class="txt_border no">
-                               <img class="align_left img56" src="imgg/6.png"><input id="user-passwd" class="input" type="password" name="userpassword" value="">
-                            </div>
-
-                            <button id="login" class="but1" onclick="click_but1()">
-                                登录
-                            </button>
-                        </form>
-
+            <div class="login_main">
+                <div class="form-wrapper">
+                    <div class="header">
+                      login
                     </div>
-                </div>
-                    
-                <div  class="backimg2">                 
-                    <img class="img" src="imgg/2.jpg">
-                 </div>
-            </div>
-
-            <div class="sheet">
-                <div class="mid">
-                     <p class="nomargin">
-                        @xrdog-2020.12
-                    </p>
-                </div>
+                    <div class="input-wrapper">
+                      <div class="border-wrapper">
+                        <input id="loginUsername" type="text" name="username" placeholder="username" class="border-item">
+                      </div>
+                      <div class="border-wrapper">
+                        <input id="loginUserpasswd" type="password" name="password" placeholder="password" class="border-item">
+                      </div>
+                    </div>
+                    <div id="loginInform" class="action">
+                      <div class="btn" onclick="login()">login</div>
+                      <div class="btn">register</div>
+                    </div>
+                    <div class="icon-wrapper">
+                        <i class="iconfont phs-weixin">XXX</i>
+                        <i class="iconfont phs-weibo">RRR</i>
+                        <i class="iconfont phs-github">GGG</i>
+                      </div>
             </div>
         </div>
-        <script>
-            let ele = document.getElementById('form-box');
-            console.log(ele)
-             window.ele = ele;
-        </script>
     </body>
 
 </html>
