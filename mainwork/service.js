@@ -7,8 +7,8 @@ var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
-  password : 'cy200412.',
-  database : 'test'
+  password : '123456',
+  database : 'mysql'
 });
 
 connection.connect();
@@ -24,6 +24,7 @@ let urlencodedParser = bodyParser.urlencoded({ extended: false })
 app.use('/public', express.static('public'));
  
 app.get('/index.html', function (req, res) {
+  console.log('dirname',__dirname);
    res.sendFile( __dirname + "/" + "index.html" );
 })
   
