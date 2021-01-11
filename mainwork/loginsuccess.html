@@ -1,13 +1,34 @@
 
 
 <html class="forheight"> 
-
+    
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="./public/css/main.css" charset="utf-8">
         <script src="public/js/main.js"></script>
         <title>xrdog</title>
         <script></script>
+        <style>
+    
+          .container {
+            position: absolute;
+            top:45%;
+            left:42%;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+          }
+    
+          .content {
+            text-align: center;
+            display: inline-block;
+          }
+    
+          .title {
+            font-size: 42px;
+            margin-bottom: 40px;
+          }
+        </style>
     </head>
     <body sytle={background-color:34495e}>
         <div class="main">
@@ -15,39 +36,12 @@
                 <img src="/public/imgg/xrdogLogo.png">
                 <span>统一身份认证 | 登录成功</span>
             </div>
-           
             </div>
-
-            <div class="slidershow middle">
-			
-                <div class="slides">
-                    
-                  <input class="hidden" type="radio" name="r" id="r1" checked />
-                  <input class="hidden" type="radio" name="r" id="r2"  />
-                  <input class="hidden" type="radio" name="r" id="r3"  />
-                  
-                  <div class="slide s1">
-                    <img src="./public/imgg/number1.png" alt="photo" />
-                  </div>
-                  
-                  <div class="slide">
-                    <img src="./public/imgg/number2.png" alt="photo" />
-                  </div>
-                  
-                  <div class="slide">
-                    <img src="./public/imgg/number3.png" alt="photo" />
-                  </div>
-                  
-                  </div>
-                
-                  <div class="navigaion">
-                      <label for="r1" class="bar"></label>
-                       <!-- label标签为 input 元素定义标注  "for"属性可把label绑定到另外一个元素。请把 "for" 属性的值设置为相关元素的 id 属性的值。 -->
-                      <label for="r2" class="bar"></label>
-                      <label for="r3" class="bar"></label>
-                  </div>
-                  
+            <div class="container">
+              <div class="content">
+                <div class="title">！！欢迎登录！！</div>
               </div>
+            </div>
         </div>
     </body>
 
